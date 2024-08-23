@@ -3,9 +3,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-slate-300 h-screen mx-4 ">
-      <Link href="/">{"<"}</Link>
-
+    <div className="flex flex-col justify-center items-center bg-slate-300 h-screen ">
       <div className="container w-[400px] bg-white p-[1.5rem] rounded-xl items-center justify-center bg-[2rem] ">
         <img
           src="/images/image-qr-code.png"
