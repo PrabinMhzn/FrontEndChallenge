@@ -4,11 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-slate-300 h-screen mx-4 ">
-      <Link href="/">
-        <div className=" bg-slate-400 w-16 text-center rounded-md mb-8">
-          Home
-        </div>
-      </Link>
+      <Link href="/">{"<"}</Link>
 
       <div className="container w-[400px] bg-white p-[1.5rem] rounded-xl items-center justify-center bg-[2rem] ">
         <img
@@ -20,7 +16,7 @@ const page = () => {
         <h1 className=" text-3xl font-bold text-slate-900 text-center mb-4">
           Improve your front-end skills by building projects
         </h1>
-        <p className="text-slate-500 text-center text-base">
+        <p className="text-slate-500 text-center px-4 font-">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
