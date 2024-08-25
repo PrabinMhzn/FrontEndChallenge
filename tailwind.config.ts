@@ -16,6 +16,10 @@ const config: Config = {
         white: "hsl(0, 0%, 100%)",
         "gray-light": "hsl(0, 0%, 42%)",
         "gray-dark": "hsl(0, 0%, 7%)",
+        green: "hsl(75,94%,57%)",
+        "gray-3900": " hsl(0, 0%, 8%)",
+        "gray-3800": "hsl(0, 0%, 12%)",
+        "gray-3700": "hsl(0, 0%, 20%)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -24,6 +28,7 @@ const config: Config = {
       },
       fontFamily: {
         figtree: ["Figtree", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
