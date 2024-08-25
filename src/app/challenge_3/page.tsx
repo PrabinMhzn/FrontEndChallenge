@@ -3,7 +3,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="flex flex-col h-auto items-center justify-center bg-gray-3900 text-white pt-32">
+    <div className="flex flex-col h-screen items-center justify-center bg-gray-3900 text-white pt-32">
       <h1>challenge 3 -Social Links profile main</h1>
       <div className="flex flex-col bg-gray-3800 h-auto m-4 p-8 items-center justify-center rounded-lg font-inter">
         <img
