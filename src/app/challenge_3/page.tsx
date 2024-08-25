@@ -16,7 +16,9 @@ const page = () => {
           <p className="text-green">London, United Kingdom</p>
         </div>
         <div>
-          <p className="my-4">"Front-end developer and avid reader."</p>
+          <p className="my-4">
+            &quot;Front-end developer and avid reader.&quot;
+          </p>
           <ul className="flex flex-col items-center w-full gap-4 hover:cursor-pointer text-base">
             <li className="w-full">
               <Button label="GitHub" />
