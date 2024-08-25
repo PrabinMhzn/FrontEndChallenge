@@ -39,7 +39,7 @@ const page = () => {
 
       <div className="text-xs mt-4">
         <p className="text-xs mt-4 text-center ">
-          Challenge by{" "}
+          Challenge by&nbsp;
           <span className="text-blue-700 underline ">
             <a
               href="https:/www.frontendmentor.io?ref=challenge"
@@ -48,7 +48,7 @@ const page = () => {
               Frontend Mentor
             </a>
           </span>
-          . Coded by{" "}
+          . Coded by&nbsp;
           <span className="text-blue-700 underline">
             <a href="https://'portfolio-prabin-vercel.app">Prabin Maharjan</a>
           </span>

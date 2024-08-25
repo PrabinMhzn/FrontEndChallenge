@@ -15,7 +15,7 @@ const page = () => {
 
         <p className="my-4">Published 21 Dec 2023</p>
         <h1 className="font-bold text-2xl hover:text-customyellow transition duration-300 hover:cursor-pointer">
-          HTML & CSS foundations{" "}
+          HTML & CSS foundations&nbsp;
         </h1>
         <p className="my-4 text-gray-light">
           These languages are the backbone of every website, defining structure,
@@ -29,7 +29,7 @@ const page = () => {
 
       <div className="text-xs mt-4">
         <p className="text-xs mt-4 text-center ">
-          Challenge by{" "}
+          Challenge by&nbsp;
           <span className="text-blue-700 underline ">
             <a
               href="https:/www.frontendmentor.io?ref=challenge"
@@ -38,7 +38,7 @@ const page = () => {
               Frontend Mentor
             </a>
           </span>
-          . Coded by{" "}
+          . Coded by&nbsp;
           <span className="text-blue-700 underline">
             <a href="https://'portfolio-prabin-vercel.app">Prabin Maharjan</a>
           </span>
