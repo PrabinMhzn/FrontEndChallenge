@@ -34,6 +34,7 @@ const config: Config = {
         "Rose-50": "hsl(330,100%,98%)",
 
         "DarkCyan-5": "hsl(152,36%,37%)",
+        "DarkCyanDark-5": "hsl(152,36%,25%)",
         "cream-5": "hsl(30,38%,92%)",
         "DarkBlue-5": "hsl(212,21%,14%)",
         "DarkGrayBlue-5": "hsl(228,12%,48%)",

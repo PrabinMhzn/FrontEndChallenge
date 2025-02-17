@@ -21,7 +21,7 @@ const Page = () => {
             <h3 className="uppercase text-DarkGrayBlue-5 font-Montserrat text-md md:my-6 tracking-custom">
               perfume
             </h3>
-            <h1 className="text-4xl md:text-5xl font-fraunces font-extrabold my-4 md:mb-8">
+            <h1 className="text-4xl md:text-5xl font-fraunces font-extrabold my-4 md:mb-8 text-DarkBlue-5">
               Gabrielle Essence Eau De Parfum
             </h1>
             <p className="text-DarkGrayBlue-5 text-md md:mb-6 md:text-lg font-montserrat font-medium md:pr-2">
@@ -36,7 +36,7 @@ const Page = () => {
                 $169.99
               </p>
             </div>
-            <button className="bg-DarkCyan-5 text-white p-4 rounded-lg w-full font-Montserrat font-medium  transition duration-300 flex items-center gap-2 justify-center">
+            <button className="bg-DarkCyan-5 text-white p-4 rounded-lg w-full font-Montserrat font-medium hover:bg-DarkCyanDark-5 transition duration-300 flex items-center gap-2 justify-center">
               <BoldCart />
               <span className="font-montserrat font-semibold">Add to Cart</span>
             </button>
