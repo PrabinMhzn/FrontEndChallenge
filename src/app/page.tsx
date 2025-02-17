@@ -34,6 +34,13 @@ export default function Home() {
               </h1>
             </Link>
           </li>
+          <li>
+            <Link href="/challenge_5">
+              <h1 className="hover:text-slate-300 bg-slate-500 p-4 rounded-lg hover:scale-110 duration-300">
+                challenge 5 -Product Preview card
+              </h1>
+            </Link>
+          </li>
         </ul>
       </div>
     </main>

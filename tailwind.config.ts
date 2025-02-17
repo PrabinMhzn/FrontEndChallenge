@@ -1,4 +1,3 @@
-import { Outfit, Young_Serif } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -10,6 +9,9 @@ const config: Config = {
   theme: {
     screens: {
       sm: "375px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
     extend: {
       colors: {
@@ -30,6 +32,11 @@ const config: Config = {
         "Brown-800": "hsl(14,45%,36%)",
         "Rose-800": "hsl(332,51%,32%)",
         "Rose-50": "hsl(330,100%,98%)",
+
+        "DarkCyan-5": "hsl(152,36%,37%)",
+        "cream-5": "hsl(30,38%,92%)",
+        "DarkBlue-5": "hsl(212,21%,14%)",
+        "DarkGrayBlue-5": "hsl(228,12%,48%)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -41,6 +48,11 @@ const config: Config = {
         inter: ["Inter", "sans-serif"],
         "young-serif": ['"Young Serif"', "serif"],
         Outfit: ["Outfit", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        fraunces: ["Fraunces", "serif"],
+      },
+      letterSpacing: {
+        custom: "0.4rem",
       },
     },
   },
