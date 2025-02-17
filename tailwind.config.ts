@@ -53,7 +53,7 @@ const config: Config = {
         fraunces: ["Fraunces", "serif"],
       },
       letterSpacing: {
-        custom: "0.4rem",
+        custom: "0.25rem",
       },
     },
   },
